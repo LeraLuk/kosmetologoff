@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/github.io/kosmetologoff/static/css/main.c0881bb1.css",
+    "main.js": "/github.io/kosmetologoff/static/js/main.aa4068b7.js",
+    "static/media/jpg-profi_w1500.jpg": "/github.io/kosmetologoff/static/media/5e4a04567ad64bb7bae617340d34a77d.jpg-profi_w1500.57d5eb39d922be438076.jpg",
+    "static/media/jpg-profi_w1500 (1).jpg": "/github.io/kosmetologoff/static/media/e7bd050407c64d2dae716f9c0758e383.jpg-profi_w1500 (1).b162e4c79c6834ed3e5b.jpg",
+    "static/media/mama.png": "/github.io/kosmetologoff/static/media/mama.5af68b9a7ccdade53530.png",
+    "static/media/profi.svg": "/github.io/kosmetologoff/static/media/profi.263e094b70a7b7e404a8600b4c1ee7e6.svg",
+    "index.html": "/github.io/kosmetologoff/index.html",
+    "main.c0881bb1.css.map": "/github.io/kosmetologoff/static/css/main.c0881bb1.css.map",
+    "main.aa4068b7.js.map": "/github.io/kosmetologoff/static/js/main.aa4068b7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0881bb1.css",
+    "static/js/main.aa4068b7.js"
+  ]
+}
