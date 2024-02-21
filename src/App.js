@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import { Header } from "./osnova/Header";
+import { Main } from "./osnova/Main";
+import { Footer } from "./osnova/Footer";
+import React, { useState } from 'react';
 
 function App() {
+
+  const [currentContent, setCurrentContent] = useState('home');
+
+  const changeContent = (content) => {
+    setCurrentContent(content);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Header handleClick={changeContent} />
+    <Main currentContent={currentContent} />
+    <Footer />
+    </>
   );
 }
 
